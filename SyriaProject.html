@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Refugee Project</title>
+    <link rel= "stylesheet" href = "SyriaProject.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    .mySlides {display:none;}
+    </style>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        clear: left;
+    }
+
+    h1, #main_content {
+        padding: 15px; /* padding in the title rectangle */
+    }
+
+    a {
+        color: #06c;
+    }
+
+    #main_nav li {
+        float: left; 
+        position: relative;
+        width: 170px; /* space between cells in header */
+        list-style: none;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+
+    #main_nav > ul > li > a, h1 {
+        text-transform: uppercase;
+    }
+
+    #main_nav a {
+        display: block;
+        text-decoration: none;
+        padding: 10px 30px; 
+        color: #000; /* color of words in header */;
+        font-weight: 400; /* boldness of words in header */
+    }
+
+    #main_nav ul ul {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    #main_nav ul ul ul {
+        left: 100%;
+        top: 0;
+    }
+
+    /*changes color of first hover tab*/
+    #main_nav li:hover, #main_nav li:hover li {
+        background: #ddd;
+    }
+    
+    /*changes color second hover tab*/
+    #main_nav li li:hover, #main_nav li li:hover li {
+        background: #bbb;
+    }
+    
+    /*changes color third hover tab*/
+    #main_nav li li li:hover {
+        background: #999;
+    }
+    
+    #main_nav li:hover > ul {
+        visibility: visible;
+        opacity: 1;
+    }
+
+</style>
+<!--background color: #98FB98 -->
+    
+    <!--[if lt IE 9]><script src="/r10/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+    <article>
+        <h1>Syria</h1>
+
+        <nav id="main_nav">
+            <ul>
+                <li>
+                    <a href="">Home</a> <!-- first tab-->
+                </li>
+                <li>
+                    <a href="">About</a> <!-- second tab-->
+                    <ul>
+                        <li>
+                            <a href="">Our Vision</a>
+                        </li>
+                        <li>
+                            <a href="">Our Team</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Get Involved</a> <!-- third tab-->
+                    <ul>
+                        <li><a href="https://docs.google.com/a/st.northernhighlands.org/forms/d/e/1FAIpQLSfKYvTQI-24YTOqgpNfzoLZk4rqHuXJj-2ngtgjvta-tLt-oA/viewform?embedded=true">Become a Mentor</a></li>
+                        <li><a href="https://docs.google.com/a/st.northernhighlands.org/forms/d/e/1FAIpQLSdCQYwj4xSDlmLeckzR2R6NRH-i-WSSTLSfCf9vN2ghoKn6PA/viewform?embedded=true">Find a Mentor</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Blog</a> <!-- fourth tab-->
+                    <ul>
+                        <li><a href="">Stories of Syrians</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Contact Us</a> 
+                    <ul>
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                        <li><a href="">Instagram</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="file:///Users/gchong/Desktop/faq-page.html">FAQ</a> 
+                </li>
+                 <li>
+                    <a href="#calendar">Calendar</a> 
+                </li>
+
+            </ul>
+        </nav>
+    </article>
+
+
+<!-- automatic slideshw starts here -->
+
+<center>
+<div class="w3-content w3-section">
+  <img class="mySlides" src="syria1.jpg" style="width:100%">
+  <img class="mySlides" src="syria2.jpg" style="width:100%">
+  <img class="mySlides" src="syria3.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+slides(); 
+
+function slides() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(slides, 4000); // Change image every 4 seconds
+}
+</script>
+<center>
+
+<!-- automatic slideshw ends here -->
+
+
+
+<!--
+<center>
+    <img src = "Syrian_Refugees.jpg" width = "600" height= "402">
+</center> -->
+
+
+<br>
+<div id = "quote">    
+    <h4> "Education is the <br> most powerful weapon <br> we can use to <br> change the world." <br><br>
+    -Nelson Mandela
+    </h4></div>
+
+
+
+<a name= "calendar"></a>
+
+<h3>Check out our calendar for special events!</h3>
+
+<center>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=northernhighlands.org_saevm7psturqshccpc8f8pvfvk%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe> </center>
+
+
+
+
+</body>
+</html>
+
+
+
+

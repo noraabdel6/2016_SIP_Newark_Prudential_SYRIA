@@ -1,0 +1,105 @@
+
+
+body {
+    font: 300 15px/1.5 "Helvetica Neue", helvetica, arial, sans-serif;
+    background: #e6e6e6; /*backgrnd of entire website*/
+    margin: 0px; /* space between header and top of website */
+}
+
+
+article {
+    width: 100%;  /* article width changes width of title*/
+    margin: 0 auto;
+    background: #000; /* color - background of title */
+    color: #fff; /* color of words in title */
+    border-radius: 5px;
+    box-shadow: 0 0 15px 2px #666;
+    }
+
+
+/* h1 controls TITLE*/
+h1 {
+    font-size: 60px; /* change font of title*/
+    font-weight: 100; 
+    letter-spacing: 25px;
+    text-align: right; 
+}
+
+/*controls the header*/
+#main_nav ul {
+    background: white;
+    float: left;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+h3 {
+    text-align: center;
+    font: 300 20px/1.5 "Helvetica Neue", helvetica, arial, sans-serif;
+    color: white;
+}
+
+#quote h4{
+    font: 300 15px/1.5 "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 150px;
+    color: black;
+    background-color: white;
+
+}
+
+
+
+.slideshow{
+    margin-top: 30px;
+    margin-left, margin-right: 0 auto;
+    width: 100%;
+}
+
+.mySlides{
+    margin-top: 30px;
+    margin-left, margin-right: 0 auto;
+    width: 100%;
+}
+
+
+
+/* IF YOU WANT TO SEE EACH SEPARATE SEGMENT ON YOUR DOC, 
+UNCOMMENT THIS OUT AND IT'LL SHOW YOU EACH PART OUTLINED IN BLUE. 
+
+*{
+    border: solid 1px blue;
+}
+
+*/
+
+img {
+    max-width: 100%;
+    height: 600px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
