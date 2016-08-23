@@ -1,40 +1,5 @@
-
-
-/*
-img {
-	height: 300px;
-	background-size: cover;
-	background-position: center;
-}
-*/
-
-
-/*
-img{
-	position: relative;
-	width: auto;
-	max-width: 4000px;
-	height: auto;
-	max-height: 550px;
-	background-size: cover;
-	background-attachment:scroll;
-}*/
-
-
-
-/*
-h2 {
-	position: absolute;
-	top: 200px;
-	left: 0;
-	width: 100%;
-}
-
-/*
-<img src="faq.png" style = "width:100%">*/
-
-#Background {
-	background-image: url("faq.png");
+#Landscape {
+	background-image: url("syria4.jpg");
 	background-repeat: no-repeat;
 	position: relative;
 	width: auto;
@@ -43,14 +8,8 @@ h2 {
 	max-height: 600px;
 	background-size: cover;  /* scale background image to be large as possible*/
 	background-attachment: local;
-	/*filter: grayscale(100%);  ??? */
-
 }
 
-
-img {
-	opacity: 0.5;
-}
 
 
 
@@ -69,7 +28,7 @@ body {
 	margin:0px;
 }
 
-#faq-text {
+#our-team-text {
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
@@ -80,13 +39,6 @@ body {
     -webkit-column-width: 150px; /* Chrome, Safari, Opera */
     column-width: 150px;
 }
-
-
-h1 {
-	font-family: "Proxima Nova Light", Helvetica, sans-serif;
-	font-weight: 200;
-}
-
 
 
 
