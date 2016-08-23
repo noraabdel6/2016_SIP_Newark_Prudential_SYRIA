@@ -78,7 +78,7 @@ UNCOMMENT THIS OUT AND IT'LL SHOW YOU EACH PART OUTLINED IN BLUE.
 img {
     max-width: 100%;
     height: 600px;
-    
+    position: relative;
 }
 
 
