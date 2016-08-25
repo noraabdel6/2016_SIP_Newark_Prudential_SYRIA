@@ -1,0 +1,26 @@
+ /* Style the list */
+body {
+    background-color: #98FB98;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #98FB98;
+}
+
+div{
+    float: right;
+}
