@@ -1,14 +1,20 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <title>Refugee Project</title>
     <link rel= "stylesheet" href = "SyriaProject.css">
+    <link rel= "stylesheet" href = "OurVision.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
     .mySlides {display:none;}
     </style>
+
+<!--start making edits-->
 
 <style>
     * {
@@ -31,7 +37,7 @@
     #main_nav li {
         float: left; 
         position: relative;
-        width: 170px; /* space between cells in header */
+        width: 182px; /* space between cells in header */
         list-style: none;
         -webkit-transition: .5s;
         transition: .5s;
@@ -65,6 +71,7 @@
     /*changes color of first hover tab*/
     #main_nav li:hover, #main_nav li:hover li {
         background: #ddd;
+        z-index: 1000; /*puts things forward or backward on the page*/
     }
     
     /*changes color second hover tab*/
@@ -87,11 +94,14 @@
     
     <!--[if lt IE 9]><script src="/r10/html5shiv.js"></script><![endif]-->
 </head>
+
 <body>
+<br>
     <article>
         <h1>Syria</h1>
-
         <nav id="main_nav">
+
+
             <ul>
                 <li>
                     <a href="">Home</a> <!-- first tab-->
@@ -100,7 +110,7 @@
                     <a href="">About</a> <!-- second tab-->
                     <ul>
                         <li>
-                            <a href="">Our Vision</a>
+                            <a href="#ourvision">Our Vision</a>
                         </li>
                         <li>
                             <a href="">Our Team</a>
@@ -137,11 +147,13 @@
             </ul>
         </nav>
     </article>
+<!-- if you want space between header and slideshow add br here-->
 
 
 <!-- automatic slideshw starts here -->
 
 <center>
+
 <div class="w3-content w3-section">
   <img class="mySlides" src="syria1.jpg" style="width:100%">
   <img class="mySlides" src="syria2.jpg" style="width:100%">
@@ -161,12 +173,17 @@ function slides() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}
     x[myIndex-1].style.display = "block";
-    setTimeout(slides, 4000); // Change image every 4 seconds
+    setTimeout(slides, 4000); //Change image every 4 seconds
 }
 </script>
 <center>
 
 <!-- automatic slideshw ends here -->
+
+
+
+
+
 
 <!--
 <center>
@@ -175,14 +192,99 @@ function slides() {
 
 
 <br>
-<div id = "quote">    
-    <h4> "Education is the <br> most powerful weapon <br> we can use to <br> change the world." <br><br>
-    -Nelson Mandela
-    </h4></div>
+<br>
+<br>
+
+
+<div class = "writingandicon">
+    <img class = "icons" src = "educate.png" > 
+   
+        <h5><br> EDUCATE <br><br> <hr></h5>
+    
+        <p> <br>By giving Syrian refugees living in<br> the US more opportunities to pursue <br>higher education, we hope to open <br>future doors for them to <br>become  successful.<br><br></p>
+</div>
+
+<div class = "writingandicon2">
+    <img class = "icons" src = "empower.png" >
+        <h5><br>EMPOWER <br><br><hr></h5>
+       
+        <p> <br>Through mentorships, young adults<br> will be encouraged and empowered <br>to make a positive impact in <br>their communities and in the <br>world. <br><br></p> 
+</div>
+
+<div class = "writingandicon3">
+    <img class = "icons" src = "engage.jpg" >
+        <h5><br>ENGAGE <br><br><hr></h5>
+        
+        <p> <br>With our program, Syrian refugees <br> will work with intelligent, passionate <br>college students all over the country <br>who are willing to help guide them <br>through the college application process.  <br><br></p>
+
+
+
+</div>
+
+
+
+
+
+
+<!--
+
+<div id="contentBox" class="clearfix">
+    <div class = "3col">
+    <p> col1</p>
+    <p> col2</p>
+    <p> col3</p>
+    </div>
+</div>
+
+
+<style>
+
+.3col
+{
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    column-count:3;
+    column-gap:10px;
+}
+
+.clearfix { zoom: 1; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+
+</style>
+-->
+
+
+
+
+
+<div id = "iconthings">  
+        <h4>  <br><br><br><br>
+        </h4>
+</div>
+
+<blockquote> Education is the most powerful weapon which you can use to change the world. <br>-Nelson Mandela </blockquote><br>
+
+
+
+<a name= "ourvision"></a>
+<div class= "Background">
+    <center>
+            <h2> Our Vision </h2>
+    </center>
+</div>
+
+<div class = "bodytext">
+    <div id = "small"> This is a nonprofit created to empower, educate, and engage Syrian refugees living in the US who are currently looking to pursue a college education. <br><br> <br> Our goal is to guide refugees through the complicated college application process by pairing them with experienced college students. Through this mentorship process, students will be able to find resources and seek guidance in other aspects of their lives. 
+    <br><br>
+    iCan is dedicated to aiding Syrian refugees in the college application process and giving them the opportunities they need to achieve higher-level education.</div>
+</div>
 
 
 <a name= "calendar"></a>
-<h3>Check out our calendar for special events!</h3>
+<h4>Check out our calendar for special events!</h4>
 <center>
 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=northernhighlands.org_saevm7psturqshccpc8f8pvfvk%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe> </center>
 

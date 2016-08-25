@@ -30,7 +30,7 @@ h2 {
 /*
 <img src="faq.png" style = "width:100%">*/
 
-#Background {
+.Background {
 	background-image: url("faq.png");
 	background-repeat: no-repeat;
 	position: relative;
@@ -43,7 +43,7 @@ h2 {
 	filter: grayscale(100%); /* ??? */
 }
 
-h2 {
+.Background h2 {
 	padding: 200px;
 	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
 	text-align: center;
@@ -59,7 +59,7 @@ body {
 	margin:0px;
 }
 
-#faq-text {
+.bodytext {
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
